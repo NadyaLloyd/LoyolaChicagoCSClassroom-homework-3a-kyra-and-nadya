@@ -22,33 +22,36 @@ int main()
 		}
 
 	}
+
 	fp = fopen("engmix.txt", "r");
 
-	while (fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
+	while(fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
 	{
-		for (int i=0; i < strlen(word); i++) //computes length of string
+		for(int i = 0; i < strlen(word); i++) //computes length of string
 		{
 			flag = 1;
-			for (int j = 0; j < strlen(myString[j])
+			for(int j = 0; j < strlen(myString[j]) //conditions
 			{
-				if (word[i] == myString[j])
+				if(word[i] == myString[j]) //conditions
 				{
 					flag = 0;
 					break;
 				}
 			}
-			if (flag)
+			if(flag)
 			{
 				break;
 			}
 		}
-		if (!flag)
+		if(!flag)
 		{
 			printf("%s\n", word);
 		}
 	}
-	fclose(fp);
+	fclose(fp); //close file
+
 	return 0;
+
 }
 
 
