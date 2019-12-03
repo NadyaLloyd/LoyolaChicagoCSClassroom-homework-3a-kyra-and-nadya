@@ -24,15 +24,12 @@ int main()
 	}
 
 	fp = fopen("engmix.txt", "r");
-
 	while(fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
 	{
 		for(int i = 0; i < strlen(word); i++) //computes length of string
 		{
-			flag = 1;
-
-			for(int j = 0; j < strlen(myString[j]) //conditions
-			for (int j=0; j < strlen(myString); j++);
+			flag = 1; //conditions
+			for (int j = 0; j < strlen(myString); j++);
 			{
 				if(word[i] == myString[j]) //conditions
 				{
@@ -53,7 +50,6 @@ int main()
 	fclose(fp); //close file
 
 	return 0;
-
 }
 
 
