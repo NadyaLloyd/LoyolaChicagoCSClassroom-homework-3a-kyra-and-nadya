@@ -10,6 +10,7 @@ int main()
 	printf("Enter a string: "); //user input
 	scanf("%s", myString); //read formatted data
 
-	
+	for (int i = 0; i < strlen(myString); i++)
+	{ //Start setting up conditions
 }
 
