@@ -29,7 +29,7 @@ int main()
 		for (int i=0; i < strlen(word); i++) //computes length of string
 		{
 			flag = 1;
-			for (int j = 0; j < strlen(myString[j])
+			for (int j=0; j < strlen(myString); j++);
 			{
 				if (word[i] == myString[j])
 				{
