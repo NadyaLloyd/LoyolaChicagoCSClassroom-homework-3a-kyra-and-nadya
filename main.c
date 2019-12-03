@@ -12,7 +12,7 @@ int main()
 
 	for (int i = 0; i < strlen(myString); i++)
 	{ //Start setting up conditions
-		myString[i] = tolower(myString[i]);
+		myString[i] = tolower(myString[i]); //condition for lowercase acception
 		if(!isalpha(myString[i]))
 		{
 			memmove(&myString[i], &myString[i + 1], strlen(myString) - i);
