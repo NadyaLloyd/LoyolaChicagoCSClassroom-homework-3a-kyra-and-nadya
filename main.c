@@ -28,8 +28,25 @@ int main()
 	{
 		for (int i=0; i < strlen(word); i++) //computes length of string
 		{
-
-
+			flag = 1;
+			for (int j = 0; j < strlen(myString[j])
+			{
+				if (word[i] == myString[j])
+				{
+					flag = 0;
+					break;
+				}
+			}
+			if (flag)
+			{
+				break;
+			}
+		}
+		if (!flag)
+		{
+			printf("%s\n", word);
+		}
+	}
 	fclose(fp);
 	return 0;
 }
