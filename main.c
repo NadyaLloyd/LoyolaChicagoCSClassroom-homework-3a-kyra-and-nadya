@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
+#include <ctype.h> 
 
 int main()
 {
@@ -23,9 +23,15 @@ int main()
 
 	}
 	fp = fopen("engmix.txt", "r");
+
+	while (fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
+	{
+		for (int i=0; i < strlen(word); i++) //computes length of string
+		{
+
+
 	fclose(fp);
 	return 0;
 }
 
 
->>>>>>> 8ecbd6a4f7e150de305e9d8a869d0212d6e48c89
