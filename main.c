@@ -30,11 +30,9 @@ int main()
 		for(int i = 0; i < strlen(word); i++) //computes length of string
 		{
 			flag = 1;
-<<<<<<< HEAD
+
 			for(int j = 0; j < strlen(myString[j]) //conditions
-=======
 			for (int j=0; j < strlen(myString); j++);
->>>>>>> 67436a65f40db99875b8a1ced7024d18d995c8f7
 			{
 				if(word[i] == myString[j]) //conditions
 				{
