@@ -20,6 +20,10 @@ int main()
 			memmove(&myString[i], &myString[i + 1], strlen(myString) - i);
 			i--;
 		}
+
 	}
+	fclose(fp);
+	return 0;
 }
+
 
