@@ -31,6 +31,7 @@ int main()
 			flag = 1;
 			for (int j=0; j < strlen(myString); j++);
 			{
+				int j;
 				if (word[i] == myString[j])
 				{
 					flag = 0;
