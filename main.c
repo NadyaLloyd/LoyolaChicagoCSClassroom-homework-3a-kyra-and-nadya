@@ -2,6 +2,7 @@
 #include <string.h>
 #include <ctype.h> 
 
+
 int main()
 {
 	int flag; //we'll use this as an indicator
