@@ -12,6 +12,13 @@ The program should print any word that is made up of the same letters stored in 
 from the input, including words that might be shorter than the input.
 
 Make
+
 	gcc -Wall -std=c99 -o myProgram main.c
+	
+Run
+	
+	./myProgram
+	
 Clean
+	
 	rm myProgram
