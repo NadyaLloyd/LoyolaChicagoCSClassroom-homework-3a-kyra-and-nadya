@@ -11,3 +11,14 @@ characters or spaces in the user's input and read lowercase and uppercase letter
 The program should print any word that is made up of the same letters stored in the array
 from the input, including words that might be shorter than the input.
 
+Make
+
+	gcc -Wall -std=c99 -o myProgram main.c
+	
+Run
+	
+	./myProgram
+	
+Clean
+	
+	rm myProgram
