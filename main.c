@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		}
 
 	}
-	fp = fopen("engmix.txt", "r");
+	fp = fopen("engmix.txt", "r"); //opens file for read only
 
 	while (fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
 	{
