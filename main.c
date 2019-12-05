@@ -2,12 +2,8 @@
 #include <string.h>
 #include <ctype.h> 
 
-<<<<<<< HEAD
 
-int main()
-=======
 int main(int argc, char *argv[])
->>>>>>> 21031b219f453c5a89f449194b174167a2c7813f
 {
 	int flag; //we'll use this as an indicator
 	char myString[255] = "\0"; //keep track of string
@@ -28,25 +24,17 @@ int main(int argc, char *argv[])
 		}
 
 	}
-
-<<<<<<< HEAD
 	fp = fopen("engmix.txt", "r");
-	while(fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
-=======
-	while (fscanf(fp, "%s\n", word) != EOF); //reads user input, specifies input is string
->>>>>>> 21031b219f453c5a89f449194b174167a2c7813f
+
+	while (fscanf(fp, "%s", word) != EOF); //reads user input, specifies input is string
 	{
 		for(int i = 0; i < strlen(word); i++) //computes length of string
 		{
 			flag = 1; //conditions
 			for (int j = 0; j < strlen(myString); j++);
 			{
-<<<<<<< HEAD
-				if(word[i] == myString[j]) //conditions
-=======
 				int j;
 				if (word[i] == myString[j])
->>>>>>> 21031b219f453c5a89f449194b174167a2c7813f
 				{
 					flag = 0;
 					break;
