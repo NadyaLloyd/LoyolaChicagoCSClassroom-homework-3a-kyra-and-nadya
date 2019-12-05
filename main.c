@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	printf("Enter a word: "); //user input
 	scanf("%s", myString); //read formatted data
 
-	for (int i = 0; i < strlen(myString); i++)
+	for (int i = 0; i < strlen(myString); i++) //counts number of characters in string
 	{ //Start setting up conditions
 		myString[i] = tolower(myString[i]); //condition for lowercase acception
 		if(!isalpha(myString[i]))
